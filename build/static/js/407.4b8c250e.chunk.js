@@ -1,0 +1,2 @@
+(this["webpackJsonp@jscodepad/local-client"]=this["webpackJsonp@jscodepad/local-client"]||[]).push([[407],{617:function(a,s){Prism.languages.t4=Prism.languages["t4-cs"]=Prism.languages["t4-templating"].createT4("csharp")}}]);
+//# sourceMappingURL=407.4b8c250e.chunk.js.map

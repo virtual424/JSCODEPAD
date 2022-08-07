@@ -1,0 +1,2 @@
+(this["webpackJsonp@jscodepad/local-client"]=this["webpackJsonp@jscodepad/local-client"]||[]).push([[420],{630:function(s,a){var e=Prism.util.clone(Prism.languages.typescript);Prism.languages.tsx=Prism.languages.extend("jsx",e)}}]);
+//# sourceMappingURL=420.73e0ddb2.chunk.js.map

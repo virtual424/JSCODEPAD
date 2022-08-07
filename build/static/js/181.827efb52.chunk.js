@@ -1,0 +1,2 @@
+(this["webpackJsonp@jscodepad/local-client"]=this["webpackJsonp@jscodepad/local-client"]||[]).push([[181],{391:function(n,e){var a;(a=Prism).languages.ignore={comment:/^#.*/m,entry:{pattern:/\S(?:.*(?:(?:\\ )|\S))?/,alias:"string",inside:{operator:/^!|\*\*?|\?/,regex:{pattern:/(^|[^\\])\[[^\[\]]*\]/,lookbehind:!0},punctuation:/\//}}},a.languages.gitignore=a.languages.ignore,a.languages.hgignore=a.languages.ignore,a.languages.npmignore=a.languages.ignore}}]);
+//# sourceMappingURL=181.827efb52.chunk.js.map

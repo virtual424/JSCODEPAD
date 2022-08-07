@@ -49,20 +49,6 @@ const App: React.FC = () => {
       {openModal && <NewWorkInput />}
     </>
   );
-
-  // return loading ? (
-  //   <Progress />
-  // ) : (
-  //   <>
-  //     {!user && <Auth />}
-  //     {user && (
-  //       <>
-  //         <Editor />
-  //         {openModal && <NewWorkInput />}
-  //       </>
-  //     )}
-  //   </>
-  // );
 };
 
 ReactDOM.render(

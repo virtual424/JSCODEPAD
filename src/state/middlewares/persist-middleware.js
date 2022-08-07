@@ -3,9 +3,7 @@ import { ActionType } from "../action-types";
 
 let timer;
 
-export const persistMiddleware = ({ dispatch, getState }) => (next) => (
-  action
-) => {
+export const persistMiddleware = ({ dispatch }) => (next) => (action) => {
   next(action);
   if (
     [
@@ -18,6 +16,6 @@ export const persistMiddleware = ({ dispatch, getState }) => (next) => (
     if (timer) clearTimeout(timer);
     timer = setTimeout(() => {
       dispatch(saveCells());
-    }, 300);
+    }, 250);
   }
 };
