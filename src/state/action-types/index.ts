@@ -1,0 +1,17 @@
+export enum ActionType {
+  MOVE_CELL = "move_cell",
+  DELETE_CELL = "delete_cell",
+  INSERT_CELL_AFTER = "insert_cell_after",
+  UPDATE_CELL = "update_cell",
+  CREATE_BUNDLE = "create_bundle",
+  BUNDLE_START = "bundle_start",
+  BUNDLE_COMPLETE = "bundle_complete",
+  FETCH_CELLS = "fetch_cells",
+  SAVE_CELLS = "save_cells",
+  GET_USER = "get_user",
+  SIGN_UP = "sign_up",
+  SIGN_IN = "sign_in",
+  SIGN_OUT = "sign_out",
+  CREATE_WORK = "create_work",
+  GET_ALL_WORK_NAMES = "get_all_work_names",
+}

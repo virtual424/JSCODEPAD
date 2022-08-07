@@ -1,0 +1,82 @@
+.sidebar {
+  margin: 20px;
+  margin-top: 15px;
+  flex: 0.2;
+  overflow-y: auto;
+}
+
+.sidebar h4 {
+  font-size: 1.5rem;
+  padding: 5px;
+  padding-left: 15px;
+  margin-bottom: 20px;
+}
+
+.newWork {
+  padding: 8px 25px;
+  color: white;
+  background-color: #db6c1d;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.newWork:hover {
+  opacity: 0.9;
+}
+
+.plusIcon {
+  margin-right: 8px;
+}
+
+.workTile {
+  padding: 15px;
+  padding-right: 5px;
+  margin-bottom: 4px;
+  background-color: #db6c1d;
+  border-bottom: 2px solid white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.selectedTile {
+  border-bottom: 4px solid white;
+  border-left: 4px solid white;
+}
+
+.workTile:hover {
+  opacity: 0.9;
+  border-bottom: 4px solid white;
+}
+
+.workName {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.workName h5 {
+  flex: 0.8;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.delIcon {
+  /* background-color: aqua; */
+  flex: 0.2;
+  color: white;
+  cursor: pointer;
+  transition: opacity 0.3s ease-in 0.1s;
+}
+
+.delIcon:hover {
+  color: red;
+}
